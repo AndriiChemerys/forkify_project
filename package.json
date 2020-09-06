@@ -1,0 +1,23 @@
+{
+  "name": "forkify_project",
+  "version": "1.0.0",
+  "description": "forkify project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriiChemerys/forkify_project.git"
+  },
+  "author": "Andrii Chemerys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriiChemerys/forkify_project/issues"
+  },
+  "homepage": "https://github.com/AndriiChemerys/forkify_project#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1"
+  },
+  "dependencies": {}
+}
