@@ -1,4 +1,4 @@
 // Global app controller
-// import x from './test';
+import x from "./test";
 
-// console.log(x + "asd");
+console.log(x + "asd");
