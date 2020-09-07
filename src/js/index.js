@@ -1,4 +1,4 @@
 // Global app controller
 import x from "./test";
-
-console.log(x + "asd");
+const y = 23;
+console.log(x + "asd" + y);
