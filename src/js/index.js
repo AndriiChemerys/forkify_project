@@ -1,3 +1,10 @@
+import Search from './models/Search';
+import * as searchVIew from './views/searchView';
+
+import {
+    elements
+} from './views/base';
+
 // import axios from 'axios';
 
 // async function getResults(query) {
@@ -37,7 +44,7 @@ const controlSearch = async () => {
     }
 }
 
-document.querySelector('.search').addEventListener('submit', e => {
+elements.searchForm.addEventListener('submit', e => {
     e.preventDefault();
     controlSearch();
 });
